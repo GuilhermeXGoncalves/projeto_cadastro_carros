@@ -1,0 +1,39 @@
+{
+  "name": "projeto_cadastro_carros",
+  "version": "1.0.0",
+  "description": "projeto para uma Api de cadastro de carros",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/server.ts --watch 'src/' -e ts",
+    "compile": "npx tsc",
+    "start": "node ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeXGoncalves/projeto_cadastro_carros.git"
+  },
+  "author": "Guilherme Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeXGoncalves/projeto_cadastro_carros/issues"
+  },
+  "homepage": "https://github.com/GuilhermeXGoncalves/projeto_cadastro_carros#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/helmet": "^0.0.48",
+    "@types/morgan": "^1.9.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
